@@ -9,7 +9,7 @@ if (!process.env.PORT) {
 const PORT = process.env.PORT;
 
 //
-// Application entry point.
+// Application entry point...
 //
 async function main() {
     const app = express();
@@ -20,7 +20,7 @@ async function main() {
     app.use(express.static("public"));
 
     //
-    // Main web page that lists videos.
+    // Main web page that lists video files.
     //
     app.get("/", async (req, res) => {
 
