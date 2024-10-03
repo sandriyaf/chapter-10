@@ -19,7 +19,7 @@ services:
       - RABBITMQ_DEFAULT_PASS=test
     restart: always
 
-  # Service for loading database fixtures.
+  # Service for loading database fixtures..
   db-fixture-rest-api:
     image: db-fixture-rest-api
     build: 
